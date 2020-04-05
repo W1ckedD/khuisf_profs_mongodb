@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'samim';
+  src: url('./assets/Samim.woff');
+}
+
+h4 {
+  line-height: 0.5;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 20;
+}
+
+h1, h2, h3, h4, h5, p {
+  font-family: 'samim', sans-serif;
+}
+
+.grid-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 3rem;
+}

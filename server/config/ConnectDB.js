@@ -1,5 +1,4 @@
 const mongoose = require('mongoose');
-
 module.exports = async () => {
     try {
         const conn = await mongoose.connect(process.env.MONGODB_STR, {
